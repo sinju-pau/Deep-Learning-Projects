@@ -10,7 +10,7 @@ Here's a list of notebooks illustrating some of my current projects:
 
 2.  [Deep Learning: Artificial Neural Networks for Telecom Customer Churn Predictions - using H2O in R ](http://nbviewer.jupyter.org/github/sinju-pau/Deep-Learning-Projects1/blob/master/CustomerChurnData.ipynb)
 
-3.  [Deep Learning: Artificial Neural Networks for Telecom Customer Churn Predictions - using Keras in Python](http://nbviewer.jupyter.org/github/sinju-pau/Deep-Learning-Projects1/blob/master/CustomerChurnData.ipynb)
+3.  [Deep Learning: Artificial Neural Networks for Telecom Customer Churn Predictions - using Keras in Python](http://nbviewer.jupyter.org/github/sinju-pau/Deep-Learning-Projects1/blob/master/DLKerasCustomerChurnData.ipynb)
 
 
 
