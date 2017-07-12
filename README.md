@@ -8,6 +8,6 @@ Here's a list of notebooks illustrating some of my current projects:
 
 1.  [Deep Learning: Cats and Dogs Image Classification - using Keras in Python](http://nbviewer.jupyter.org/github/sinju-pau/Deep-Learning-Projects1/blob/master/DLKerasImageClassification.ipynb)
 
-1.  [Deep Learning: Telecom Customer Churn Predictions - using H2O in R ](http://nbviewer.jupyter.org/github/sinju-pau/Deep-Learning-Projects1/blob/master/DLKerasImageClassification.ipynb)
+1.  [Deep Learning: Telecom Customer Churn Predictions - using H2O in R ](http://nbviewer.jupyter.org/github/sinju-pau/Deep-Learning-Projects1/blob/master/CustomerChurnData.ipynb)
 
 
