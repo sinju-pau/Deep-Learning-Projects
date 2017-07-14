@@ -1,0 +1,60 @@
+---
+title: "iris"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+library(neuralnet)
+
+set.seed(101)
+size.sample <- 50
+iristrain <- iris[sample(1:nrow(iris), size.sample),] # get a training sample from iris
+nnet_iristrain <- iristrain
+
+# Binarize the categorical output
+nnet_iristrain <- cbind(nnet_iristrain, iristrain$Species == 'setosa')
+nnet_iristrain <- cbind(nnet_iristrain, iristrain$Species == 'versicolor')
+nnet_iristrain <- cbind(nnet_iristrain, iristrain$Species == 'virginica')
+
+names(nnet_iristrain)[6] <- 'setosa'
+names(nnet_iristrain)[7] <- 'versicolor'
+names(nnet_iristrain)[8] <- 'virginica'
+
+head(nnet_iristrain)
+
+nn <- neuralnet(setosa+versicolor+virginica ~ 
+                Sepal.Length+Sepal.Width
+                            +Petal.Length
+                            +Petal.Width,
+                data=nnet_iristrain, 
+                hidden=c(3))
+
+```{r iris, echo=FALSE}
+plot(nn)
+```
+
+
+                
