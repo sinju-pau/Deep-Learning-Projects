@@ -16,6 +16,9 @@ Here's a list of notebooks illustrating some of my current projects:
 
 5.  [Deep Learning: Artificial Neural Networks for Lending Club's Loan Staus Predictions - using Tensorflow & Keras in Python](http://nbviewer.jupyter.org/github/sinju-pau/Deep-Learning-Projects/blob/master/Loan.ipynb)
 
+6.  [Deep Learning: Neural Networks for Retail Product Category Predictions - using Tensorflow & Keras in Python](http://nbviewer.jupyter.org/github/sinju-pau/Deep-Learning-Projects/blob/master/OnlineRetailProductSegment.ipynb)
+
+
 
 
 
