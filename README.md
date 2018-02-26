@@ -48,7 +48,7 @@ It is highly recommended that you install the [Anaconda](http://continuum.io/dow
 
 ## Code
 
-Template code is provided in the `.ipynb` notebook files. Note that separate files such as .py or .R are not included in the repository. You can jump to the notebooks clicking on the links in appropriate sections.
+Template code is provided in the `.ipynb` notebook files. Note that separate files such as `.py` or `.R` are not included in the repository. You can jump to the notebooks clicking on the links in appropriate sections.
 
 ## Run
 
