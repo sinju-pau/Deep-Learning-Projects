@@ -22,7 +22,7 @@ Here's a list of notebooks illustrating some projects:
 
 7.  [Deep Learning: Convolutional Neural Networks for the MNIST Dataset - using Tensorflow in Python](http://nbviewer.jupyter.org/github/sinju-pau/Deep-Learning-Projects/blob/master/ConvNetTensorFlow.ipynb)
 
-8. [Deep Learning Vs Classical Machine Learning for IMdb Movie Score predictions - using Tensorflow in Python]()
+8. [Deep Learning Vs Classical Machine Learning for IMdb Movie Score predictions - using Tensorflow in Python](https://github.com/sinju-pau/Deep-Learning-Projects/blob/master/PredictingIMDbMovieRating.ipynb)
 
 
 ## Install
