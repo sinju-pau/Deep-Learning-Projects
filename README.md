@@ -70,7 +70,7 @@ This will open the Jupyter Notebook in your browser.
 
 ## Data
 
-The data files, as `.csv`, `.txt`, or `.xls`, may required to be downloaded through the source links provided in the notebook and be saved in the same directory as the notebook file.
+The data files, as `.csv`, `.txt`, or `.xls`, may required to be downloaded through the source links provided in the notebook and be saved in the same directory as the notebook file.TEST
 
 
 
